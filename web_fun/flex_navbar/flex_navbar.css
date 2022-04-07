@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-links {
+    display: flex;
+    marker: none;
+}
+a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    list-style: none;
+}
+button {
+    display: flex;
+    text-align: end;
+    color: white;
+    background-color: blue;
+    justify-content: right;
+}
+li {
+    list-style: none;
+}
